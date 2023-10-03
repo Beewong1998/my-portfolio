@@ -624,3 +624,8 @@ header {
     border: var(--clr-accent) 2px solid;
 }
 
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
