@@ -532,8 +532,17 @@ header {
 }
 
 .portfolio-item-individual img {
-    margin: 0 auto;
+    margin-inline: auto;
+    margin-bottom: 70px;
     max-height: 500px;
+}
+
+.portfolio-item-individual ul {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--clr-light);
+    margin-bottom: 10px;
 }
 
 .project-intro {
@@ -614,3 +623,4 @@ header {
 .project-btn-container .project-btn {
     border: var(--clr-accent) 2px solid;
 }
+
