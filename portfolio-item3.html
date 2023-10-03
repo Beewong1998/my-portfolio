@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kin Wong Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="intro-container">
+            <section class="socials">
+                <a class="social" href="/"><i class="fa-solid fa-house"></i></a>
+                <a class="social" href="https://www.linkedin.com/in/kin-wong-50a189189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="social" href="https://github.com/Beewong1998/pollinate" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </section>
+        <section class="project-intro">
+            <h1 >
+                <strong>Currency Converter</strong>
+            </h1>
+            <h2 >
+                Chrome Extension
+            </h2>
+            <p class="project-section__subtitle project-section__subtitle--intro">Convert on the go</p>
+            <a href="https://github.com/Beewong1998/Currency-Converter" target="_blank" class="project-btn">Project Link</a>
+        </section>
+        </div>
+        
+        <div class="portfolio-item-individual">
+            <img src="img/Currency Converter/main-page.jpg" alt="">
+            <h1>Project Overview</h1>
+            <p>Purpose of Project: To make a clean looking currency exchange extension that can be easily accessed. I wanted to add some levels of customisation to the application to make it more personalised to each user.</p>
+            <img src="img/Currency Converter/settings.jpg" alt="">
+            <p>Demo of application working:</p>
+            <img src="img/Currency Converter/working-demo.jpg" alt="">
+            <p>Problems and fixes: The background colours resetted everytime you reopened the app. This was fixed after implementing local storage.</p>
+        </div>
+
+        <div class="portfolio-item-individual">
+            <h1>Tools Used</h1>
+            <div class="skills">
+                <div class="skills__skills">HTML</div>
+                <div class="skills__skills">CSS</div>
+                <div class="skills__skills">JavaScript</div>
+            </div>
+        </div>
+        
+        <div class="portfolio-item-individual">
+            <h1>See Live</h1>
+            <div class="project-btn-container">
+                <a href="https://github.com/Beewong1998/Currency-Converter" target="_blank" class="project-btn">Project Link</a>
+                <a href="/" class="project-btn">Go Back</a>
+            </div>
+        </div>
+        
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:kinwangwong10@gmail.com" class="footer__link">Kinwangwong10@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="mailto:kinwangwong10@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/kin-wong-50a189189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Beewong1998" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
