@@ -229,20 +229,27 @@ header {
 /*  Intro section  */
 
 .socials {
-    margin-top: 79px;
-    
-    background-color: var(--clr-dark);
-    align-items: center;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 20px;
-    padding: 50px 20px;
+    display: none;
+
 }
 
-.social {
-    color: var(--clr-accent);
-    font-size: 3rem;
+@media (min-width: 984px) {
+    .socials {
+        margin-top: 79px;
+        
+        background-color: var(--clr-dark);
+        align-items: center;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 20px;
+        padding: 50px 20px;
+    }
+    
+    .social {
+        color: var(--clr-accent);
+        font-size: 3rem;
+    }
 }
 
 .intro-container {
