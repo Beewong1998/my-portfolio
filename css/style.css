@@ -425,7 +425,7 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     gap: 18px;
     max-width: 1300px;
     min-height: 300px;
@@ -526,7 +526,7 @@ header {
 
 .portfolio-item-individual h1 {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
     color: var(--clr-accent);
 }
 
@@ -629,5 +629,15 @@ header {
 
 .project-btn-container .project-btn {
     border: var(--clr-accent) 2px solid;
+}
+
+div.portfolio-item-individual img {
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+p.img-description {
+    margin-top: -25px;
+    margin-bottom: 45px;
 }
 
