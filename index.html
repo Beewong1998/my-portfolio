@@ -1,150 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kin Wong Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="img/" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">  <!-- aria-label to say what the button is used for -->
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="img/" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <!-- aria-label to say what the button is used for -->
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
 
     <!-- Introduction -->
     <div class="intro-container">
-        <section class="socials">
-            <a class="social" href="mailto:kinwangwong10@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            <a class="social" href="https://www.linkedin.com/in/kin-wong-50a189189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a class="social" href="https://github.com/Beewong1998" target="_blank"><i class="fa-brands fa-github"></i></a>
-        </section>
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Kin Wong</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Software Developer</p>
-            <img src="img/kin-01.jpg" alt="a picture of Kin Wong smiling" class="intro__img">
-        </section>
+      <section class="socials">
+        <a class="social" href="mailto:kinwangwong10@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a
+          class="social"
+          href="https://www.linkedin.com/in/kin-wong-50a189189/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a class="social" href="https://github.com/Beewong1998" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </section>
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hi, I am <strong>Kin Wong</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+          Software Developer
+        </p>
+        <img
+          src="img/kin-01.jpg"
+          alt="a picture of Kin Wong smiling"
+          class="intro__img"
+        />
+      </section>
     </div>
-    
-    
-    
+
     <!-- My services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Design</h3>
-                <p>I take pride in creating user experiences that are both smooth and functional. You'll find me tweaking sizes in CSS until it is pixel perfect.</p>
-            </div> 
-            <div class="service">
-                <h3>Code</h3>
-                <p>I have a toolset for both front-end and back-end purposes. I have familiarity in JavaScript, React, HTML, CSS, and Python, continuously furthering my skills in these areas.</p>
-            </div> 
-        </div> 
-        
-        <a href="#work" class="btn">My Work</a>
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            I take pride in creating user experiences that are both smooth and
+            functional. You'll find me tweaking sizes in CSS until it is pixel
+            perfect.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Code</h3>
+          <p>
+            I have a toolset for both front-end and back-end purposes. I have
+            familiarity in JavaScript, React, HTML, CSS, and Python,
+            continuously furthering my skills in these areas.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!-- About me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">More About Me!</h2>
-        <p class="section__subtitle section__subtitle--about">Software Developer Based in Birmingham</p>
-        
-        <div class="about-me__body">
-            <p>I am an aspiring software developer looking to work in frontend development. Check out some of my work in the next section!</p>
-            <p>My background in the education industry enables me to be a quick learner who enjoys researching new coding languages and libraries. If you have a good opportunity that matches my skills and experience then please contact me!</p>
-        </div>
-        
-        <img class="about-me__img" src="img/cat-01.jpg" alt="">
+      <h2 class="section__title section__title--about">More About Me!</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Software Developer Based in Manchester
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am an aspiring software developer looking to work in frontend
+          development. Check out some of my work in the next section!
+        </p>
+        <p>
+          My background in the education industry enables me to be a quick
+          learner who enjoys researching new coding languages and libraries. If
+          you have a good opportunity that matches my skills and experience then
+          please contact me!
+        </p>
+      </div>
+
+      <img class="about-me__img" src="img/cat-01.jpg" alt="" />
     </section>
-    
+
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">Here are some of my projects</p>
-        
-        <div class="portfolio">
-            <!-- Portfolio item 01 -->
-            <div class="portfolio__item">
-                <a href="portfolio-item1.html">
-                    <img src="img/Busy Bee/Home Page.jpg" alt="" class="portfolio__img">
-                </a>
-                <div class="portfolio__description">
-                    <a href="portfolio-item1.html">
-                        <p><strong>Busy Bee</strong> - E-Commerce for Pets</p>
-                    </a>
-                </div>
-            </div>
-            <div class="portfolio__item">
-                <a href="portfolio-item2.html">
-                    <img src="img/Pollinate/main-page.jpg" alt="" class="portfolio__img">
-                </a>
-                <div class="portfolio__description">
-                    <a href="portfolio-item2.html">
-                        <p><strong>Pollinate</strong> - Polls worth spreading</p>
-                    </a>
-                </div>
-            </div>
-            <div class="portfolio__item">
-                <a href="portfolio-item3.html">
-                    <img src="img/BeeStrong/beestrong-logo.png" alt="" class="portfolio__img">
-                </a>
-                <div class="portfolio__description">
-                    <a href="portfolio-item3.html">
-                        <p><strong>BeeStrong</strong> - Find the Perfect Exercises</p>
-                    </a>
-                </div>
-            </div>
-            <div class="portfolio__item">
-                <a href="portfolio-item4.html">
-                    <img src="img/Currency Converter/icon.jpg" alt="" class="portfolio__img">
-                </a>
-                <div class="portfolio__description">
-                    <a href="portfolio-item4.html">
-                        <p><strong>Currency Converter</strong> - Currency exchange chrome extension</p>
-                    </a>
-                </div>
-            </div>
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Here are some of my projects
+      </p>
 
-            
-
+      <div class="portfolio">
+        <div class="portfolio__item">
+          <a href="portfolio-item5.html">
+            <img
+              src="img/Uno Companion/portfolio-icon.png"
+              alt=""
+              class="portfolio__img"
+            />
+          </a>
+          <div class="portfolio__description">
+            <a href="portfolio-item4.html">
+              <p>
+                <strong>Uno Companion</strong> - Web app to make your Uno games
+                more interesting!
+              </p>
+            </a>
+          </div>
         </div>
+        <div class="portfolio__item">
+          <a href="portfolio-item3.html">
+            <img
+              src="img/BeeStrong/beestrong-logo.png"
+              alt=""
+              class="portfolio__img"
+            />
+          </a>
+          <div class="portfolio__description">
+            <a href="portfolio-item3.html">
+              <p><strong>BeeStrong</strong> - Find the Perfect Exercises</p>
+            </a>
+          </div>
+        </div>
+        <!-- Portfolio item 01 -->
+        <div class="portfolio__item">
+          <a href="portfolio-item1.html">
+            <img
+              src="img/Busy Bee/Home Page.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+          </a>
+          <div class="portfolio__description">
+            <a href="portfolio-item1.html">
+              <p><strong>Busy Bee</strong> - E-Commerce for Pets</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <a href="portfolio-item2.html">
+            <img
+              src="img/Pollinate/main-page.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+          </a>
+          <div class="portfolio__description">
+            <a href="portfolio-item2.html">
+              <p><strong>Pollinate</strong> - Polls worth spreading</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <a href="portfolio-item4.html">
+            <img
+              src="img/Currency Converter/icon.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+          </a>
+          <div class="portfolio__description">
+            <a href="portfolio-item4.html">
+              <p>
+                <strong>Currency Converter</strong> - Currency exchange chrome
+                extension
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    
-    
+
     <!-- Footer -->
     <footer class="footer">
-        <a href="mailto:kinwangwong10@gmail.com" class="footer__link">Kinwangwong10@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="mailto:kinwangwong10@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.linkedin.com/in/kin-wong-50a189189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/Beewong1998" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </li>
-        </ul>
+      <a href="mailto:kinwangwong10@gmail.com" class="footer__link"
+        >Kinwangwong10@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="mailto:kinwangwong10@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kin-wong-50a189189/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/Beewong1998"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
